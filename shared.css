@@ -1,0 +1,46 @@
+
+
+    body {
+        background-color: #dab3b3;
+        color: #0a0a0a;
+        line-height: 1.6;
+        padding: 20px;
+    }
+    
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background: #1e1e1e;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    }
+    
+    h1, h2, h3 {
+        color: #060504; 
+    }
+    
+    a {
+        color: #1e90ff;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    a:hover {
+        color: #00ff84;
+    }
+    
+    button {
+        background: #100f0d;
+        color: #121212;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        
+    }
+    
+    button:hover {
+        background: #a28364;
+    }

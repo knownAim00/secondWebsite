@@ -1,0 +1,104 @@
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #dab3b3;
+    color: #100000; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.main-navigation {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 35px; 
+}
+
+.main-navigation li {
+    display: inline; 
+}
+
+.main-navigation a {
+    text-decoration: none; 
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #333; 
+    border-radius: 5px; 
+   
+}
+
+.main-navigation a:hover {
+    background-color: #555; 
+}
+table {
+    width: 40%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+tr {
+    background-color: rgb(255, 255, 255);
+}
+
+th {
+    background-color: lightgray;
+}
+#anchor-nav {
+    position: fixed; /* Закрепляем меню на экране */
+    right: 20px; /* Отступ от правого края */
+    top: 10px; /* Отступ сверху */
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#anchor-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#anchor-nav li {
+    margin: 5px 0;
+}
+
+#anchor-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    display: block;
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#anchor-nav a:hover {
+    background-color: #555;
+}
+#scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: none; 
+}
+
+#scrollTop:hover {
+    background-color: #555;
+}
