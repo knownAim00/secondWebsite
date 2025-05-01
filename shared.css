@@ -44,3 +44,47 @@
     button:hover {
         background: #a28364;
     }
+#anchor-nav {
+    position: fixed; /* Закрепляем меню на экране */
+    right: 20px; /* Отступ от правого края */
+    top: 10px; /* Отступ сверху */
+    background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#anchor-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#anchor-nav li {
+    margin: 5px 0;
+}
+
+#anchor-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px;
+    display: block;
+    background-color: #333;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#anchor-nav a:hover {
+    background-color: #555;
+}
+#scrollTop {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: none; 
+}
