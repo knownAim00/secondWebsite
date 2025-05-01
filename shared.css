@@ -59,7 +59,7 @@ th {
     right: 20px; /* Отступ от правого края */
     top: 10px; /* Отступ сверху */
     background-color: rgba(0, 0, 0, 0.7); /* Полупрозрачный фон */
-    padding: 10px;
+    padding: 30px;
     border-radius: 10px;
 }
 
